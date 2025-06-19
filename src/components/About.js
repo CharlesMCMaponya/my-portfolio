@@ -8,7 +8,7 @@ export default function About() {
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/3">
             <img
-              src="/profile.png"
+              src={process.env.PUBLIC_URL + "/profile.png"}
               alt="Profile"
               className="rounded-xl w-full h-64 object-cover shadow-md border-2 border-dashed"
             />
@@ -16,14 +16,13 @@ export default function About() {
           <div className="md:w-2/3">
             <p className="mb-4">
               Hi, I’m Charles Maponya — an IT Systems & Cybersecurity Specialist with a passion for making infrastructure secure, automated, and efficient.
-
-I work with Microsoft 365, Windows Server, and cybersecurity tools to build systems that are not just functional, but resilient and easy to manage. I also train others in cybersecurity best practices (CompTIA, Microsoft), bridging the gap between theory and real-world implementation.
-
-Whether you need help securing networks, automating system tasks, or simplifying IT operations — I’m here to deliver.
+              <br /><br />
+              I work with Microsoft 365, Windows Server, and cybersecurity tools to build systems that are not just functional, but resilient and easy to manage. I also train others in cybersecurity best practices (CompTIA, Microsoft), bridging the gap between theory and real-world implementation.
+              <br /><br />
+              Whether you need help securing networks, automating system tasks, or simplifying IT operations — I’m here to deliver.
             </p>
             <p>
-              When I'm not coding, I enjoy hiking,brand design and  photography, and learning 
-              new technologies. I believe in clean code and user-friendly designs.
+              When I'm not coding, I enjoy hiking, brand design, photography, and learning new technologies. I believe in clean code and user-friendly designs.
             </p>
           </div>
         </div>
